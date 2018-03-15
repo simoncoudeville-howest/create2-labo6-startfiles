@@ -28,28 +28,6 @@
 
 .o-layout--row-reverse {}
 
-/* Vertical alignment modifiers */
-
-.o-layout--align-start {}
-
-.o-layout--align-end {}
-
-.o-layout--align-center {}
-
-.o-layout--align-baseline {}
-
-/* ertical alignment modifiers that only work if there is one than one flex item */
-
-.o-layout--align-content-start {}
-
-.o-layout--align-content-end {}
-
-.o-layout--align-content-center {}
-
-.o-layout--align-content-space-around {}
-
-.o-layout--align-content-space-between {}
-
 /* Horizontal alignment modifiers*/
 
 .o-layout--justify-start {}
@@ -61,3 +39,25 @@
 .o-layout--justify-space-around {}
 
 .o-layout--justify-space-between {}
+
+/* Vertical item alignment modifiers */
+
+.o-layout--align-start {}
+
+.o-layout--align-end {}
+
+.o-layout--align-center {}
+
+.o-layout--align-baseline {}
+
+/* Vertical content alignment modifiers. Only work if there is one than one flex item */
+
+.o-layout--align-content-start {}
+
+.o-layout--align-content-end {}
+
+.o-layout--align-content-center {}
+
+.o-layout--align-content-space-around {}
+
+.o-layout--align-content-space-between {}
