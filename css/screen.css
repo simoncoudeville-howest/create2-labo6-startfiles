@@ -185,6 +185,16 @@ a:focus {
 \*------------------------------------*/
 
 /*
+    Utilities: max-width
+    ---
+    Utility classes to put specific max widths onto elements.
+*/
+
+.u-max-width-sm {
+    max-width: 36em;
+}
+
+/*
     Utility: Utility name
     ---
     Utility description
