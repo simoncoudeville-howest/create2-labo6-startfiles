@@ -6,6 +6,8 @@
 
 .o-row {}
 
+.o-row--primary {}
+
 .o-row--grey-dark {}
 
 @media (min-width: 768px) {
