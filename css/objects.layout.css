@@ -38,6 +38,18 @@
 
 .o-layout--align-baseline {}
 
+/* ertical alignment modifiers that only work if there is one than one flex item */
+
+.o-layout--align-content-start {}
+
+.o-layout--align-content-end {}
+
+.o-layout--align-content-center {}
+
+.o-layout--align-content-space-around {}
+
+.o-layout--align-content-space-between {}
+
 /* Horizontal alignment modifiers*/
 
 .o-layout--justify-start {}
