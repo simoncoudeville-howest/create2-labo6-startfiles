@@ -1,0 +1,17 @@
+/*
+    Utilities: max-width
+    ---
+    Utility classes to put specific max widths onto elements
+*/
+
+.u-max-width-sm {
+    max-width: 36em !important;
+}
+
+.u-max-width-md {}
+
+.u-max-width-lg {}
+
+.u-max-width-xl {}
+
+.u-max-width-none {}

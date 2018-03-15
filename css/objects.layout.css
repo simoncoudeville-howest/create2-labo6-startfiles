@@ -1,0 +1,51 @@
+/*
+    Objects: Layout
+    ---
+    The layout object provides us with a column-style layout system. This object
+    contains the basic structural elements, but classes should be complemented
+    with width utilities
+*/
+
+.o-layout {}
+
+    .o-layout__item {}
+
+/* gutter modifiers, these affect o-layout__item too */
+
+.o-layout--gutter {}
+
+.o-layout--gutter > .o-layout__item {}
+
+.o-layout--gutter-sm {}
+
+.o-layout--gutter-sm > .o-layout__item {}
+
+.o-layout--gutter-lg {}
+
+.o-layout--gutter-lg > .o-layout__item {}
+
+/* reverse horizontal row modifier */
+
+.o-layout--row-reverse {}
+
+/* Vertical alignment modifiers */
+
+.o-layout--align-start {}
+
+.o-layout--align-end {}
+
+.o-layout--align-center {}
+
+.o-layout--align-baseline {}
+
+/* Horizontal alignment modifiers*/
+
+.o-layout--justify-start {}
+
+.o-layout--justify-end {}
+
+.o-layout--justify-center {}
+
+.o-layout--justify-space-around {}
+
+.o-layout--justify-space-between {}

@@ -1,0 +1,46 @@
+/*
+    Utility: Widths
+    ---
+    Utility classes to put specific widths onto elements
+    Will be mostly used on o-layout__item
+*/
+
+.u-width-auto {}
+
+.u-1-of-2 {}
+
+.u-1-of-3 {}
+
+.u-2-of-3 {}
+
+.u-1-of-4 {}
+
+.u-3-of-4 {}
+
+.u-1-of-5 {}
+
+.u-2-of-5 {}
+
+.u-3-of-5 {}
+
+.u-4-of-5 {}
+
+.u-1-of-6 {}
+
+.u-5-of-6 {}
+
+@media (min-width: 576px) {
+    .u-1-of-2-bp1 {}
+}
+
+@media (min-width: 768px) {
+    .u-1-of-2-bp2 {}
+}
+
+@media (min-width: 992px) {
+    .u-1-of-2-bp3 {}
+}
+
+@media (min-width: 1200px) {
+    .u-1-of-2-bp4 {}
+}
