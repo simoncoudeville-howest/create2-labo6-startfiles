@@ -8,7 +8,7 @@
 
 .o-row--primary {}
 
-.o-row--grey-dark {}
+.o-row--dark {}
 
 @media (min-width: 768px) {
     .o-row--lg {}
