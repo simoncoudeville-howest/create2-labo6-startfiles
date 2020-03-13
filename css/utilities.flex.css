@@ -1,11 +1,11 @@
 /*
-    Utility: Widths
+    Utility: Flex
     ---
-    Utility classes to put specific widths onto elements
+    Utility classes to put specific flex properties onto elements
     Will be mostly used on o-layout__item
 */
 
-.u-width-auto {}
+.u-flex-basis-auto {}
 
 .u-1-of-2 {}
 
