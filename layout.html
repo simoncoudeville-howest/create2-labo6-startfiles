@@ -1,415 +1,633 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Simon Coudeville - HTML5 Boilerplate</title>
-        <meta name="description" content="This is my HTML5 boilerplate.">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="msapplication-TileColor" content="#e85e00">
-        <meta name="theme-color" content="#e85e00">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#e85e00">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Simon Coudeville - HTML5 Boilerplate</title>
+    <meta name="description" content="This is my HTML5 boilerplate.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#e85e00">
+    <meta name="theme-color" content="#e85e00">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/screen.css">
-    </head>
-    <body>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <h2>Layout items combined with width utilities</h2>
-                <div class="o-layout o-layout--gutter">
-                    <div class="o-layout__item u-1-of-1"><p class="c-layout-block c-layout-block--ellipsis">default: 100%</p></div>
-                    <div class="o-layout__item u-1-of-2"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2</p></div>
-                    <div class="o-layout__item u-1-of-2"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2</p></div>
-                    <div class="o-layout__item u-1-of-3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-3</p></div>
-                    <div class="o-layout__item u-1-of-3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-3</p></div>
-                    <div class="o-layout__item u-1-of-3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-3</p></div>
-                    <div class="o-layout__item u-1-of-3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-3</p></div>
-                    <div class="o-layout__item u-2-of-3"><p class="c-layout-block c-layout-block--ellipsis">u-2-of-3</p></div>
-                    <div class="o-layout__item u-1-of-4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p></div>
-                    <div class="o-layout__item u-1-of-4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p></div>
-                    <div class="o-layout__item u-1-of-4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p></div>
-                    <div class="o-layout__item u-1-of-4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p></div>
-                    <div class="o-layout__item u-1-of-4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p></div>
-                    <div class="o-layout__item u-3-of-4"><p class="c-layout-block c-layout-block--ellipsis">u-3-of-4</p></div>
-                    <div class="o-layout__item u-1-of-4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p></div>
-                    <div class="o-layout__item u-1-of-2"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2</p></div>
-                    <div class="o-layout__item u-1-of-4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p></div>
-                    <div class="o-layout__item u-1-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p></div>
-                    <div class="o-layout__item u-1-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p></div>
-                    <div class="o-layout__item u-1-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p></div>
-                    <div class="o-layout__item u-1-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p></div>
-                    <div class="o-layout__item u-1-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p></div>
-                    <div class="o-layout__item u-2-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-2-of-5</p></div>
-                    <div class="o-layout__item u-3-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-3-of-5</p></div>
-                    <div class="o-layout__item u-1-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p></div>
-                    <div class="o-layout__item u-4-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-4-of-5</p></div>
-                    <div class="o-layout__item u-1-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p></div>
-                    <div class="o-layout__item u-3-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-3-of-5</p></div>
-                    <div class="o-layout__item u-1-of-5"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p></div>
-                    <div class="o-layout__item u-1-of-6"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p></div>
-                    <div class="o-layout__item u-1-of-6"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p></div>
-                    <div class="o-layout__item u-1-of-6"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p></div>
-                    <div class="o-layout__item u-1-of-6"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p></div>
-                    <div class="o-layout__item u-1-of-6"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p></div>
-                    <div class="o-layout__item u-1-of-6"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p></div>
-                    <div class="o-layout__item u-1-of-6"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p></div>
-                    <div class="o-layout__item u-1-of-2"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2</p></div>
-                    <div class="o-layout__item u-1-of-3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-3</p></div>
+    <link rel="icon" href="favicon.svg">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/screen.css">
+</head>
+
+<body>
+    <section class="o-row o-row--lg">
+        <div class="o-container">
+            <h2>Layout items combined with width utilities</h2>
+            <div class="o-layout o-layout--gutter">
+                <div class="o-layout__item u-1-of-1">
+                    <p class="c-layout-block c-layout-block--ellipsis">default: 100%</p>
+                </div>
+                <div class="o-layout__item u-1-of-2">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2</p>
+                </div>
+                <div class="o-layout__item u-1-of-2">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2</p>
+                </div>
+                <div class="o-layout__item u-1-of-3">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-3</p>
+                </div>
+                <div class="o-layout__item u-1-of-3">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-3</p>
+                </div>
+                <div class="o-layout__item u-1-of-3">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-3</p>
+                </div>
+                <div class="o-layout__item u-1-of-3">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-3</p>
+                </div>
+                <div class="o-layout__item u-2-of-3">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-2-of-3</p>
+                </div>
+                <div class="o-layout__item u-1-of-4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p>
+                </div>
+                <div class="o-layout__item u-1-of-4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p>
+                </div>
+                <div class="o-layout__item u-1-of-4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p>
+                </div>
+                <div class="o-layout__item u-1-of-4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p>
+                </div>
+                <div class="o-layout__item u-1-of-4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p>
+                </div>
+                <div class="o-layout__item u-3-of-4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-3-of-4</p>
+                </div>
+                <div class="o-layout__item u-1-of-4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p>
+                </div>
+                <div class="o-layout__item u-1-of-2">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2</p>
+                </div>
+                <div class="o-layout__item u-1-of-4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-4</p>
+                </div>
+                <div class="o-layout__item u-1-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p>
+                </div>
+                <div class="o-layout__item u-1-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p>
+                </div>
+                <div class="o-layout__item u-1-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p>
+                </div>
+                <div class="o-layout__item u-1-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p>
+                </div>
+                <div class="o-layout__item u-1-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p>
+                </div>
+                <div class="o-layout__item u-2-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-2-of-5</p>
+                </div>
+                <div class="o-layout__item u-3-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-3-of-5</p>
+                </div>
+                <div class="o-layout__item u-1-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p>
+                </div>
+                <div class="o-layout__item u-4-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-4-of-5</p>
+                </div>
+                <div class="o-layout__item u-1-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p>
+                </div>
+                <div class="o-layout__item u-3-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-3-of-5</p>
+                </div>
+                <div class="o-layout__item u-1-of-5">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-5</p>
+                </div>
+                <div class="o-layout__item u-1-of-6">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p>
+                </div>
+                <div class="o-layout__item u-1-of-6">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p>
+                </div>
+                <div class="o-layout__item u-1-of-6">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p>
+                </div>
+                <div class="o-layout__item u-1-of-6">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p>
+                </div>
+                <div class="o-layout__item u-1-of-6">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p>
+                </div>
+                <div class="o-layout__item u-1-of-6">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p>
+                </div>
+                <div class="o-layout__item u-1-of-6">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-6</p>
+                </div>
+                <div class="o-layout__item u-1-of-2">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2</p>
+                </div>
+                <div class="o-layout__item u-1-of-3">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-3</p>
                 </div>
             </div>
-        </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <h2>Layout items combined with responsive width utilities</h2>
-                <div class="o-layout o-layout--gutter">
-                    <div class="o-layout__item u-1-of-2-bp1"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp1</p></div>
-                    <div class="o-layout__item u-1-of-2-bp1"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp1</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-3-bp3</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-3-bp3</p></div>
-                    <div class="o-layout__item u-1-of-3-bp3"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-3-bp3</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2 u-1-of-4-bp4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-4-bp4</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2 u-1-of-4-bp4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-4-bp4</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2 u-1-of-4-bp4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-4-bp4</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2 u-1-of-4-bp4"><p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-4-bp4</p></div>
+        </div>
+    </section>
+    <section class="o-row o-row--lg">
+        <div class="o-container">
+            <h2>Layout items combined with responsive width utilities</h2>
+            <div class="o-layout o-layout--gutter">
+                <div class="o-layout__item u-1-of-2-bp1">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp1</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp1">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp1</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-3-bp3</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-3-bp3</p>
+                </div>
+                <div class="o-layout__item u-1-of-3-bp3">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-3-bp3</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2 u-1-of-4-bp4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-4-bp4</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2 u-1-of-4-bp4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-4-bp4</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2 u-1-of-4-bp4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-4-bp4</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2 u-1-of-4-bp4">
+                    <p class="c-layout-block c-layout-block--ellipsis">u-1-of-2-bp2 + u-1-of-4-bp4</p>
                 </div>
             </div>
-        </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <h2>Layout justification modifiers</h2>
-                <div class="o-layout o-layout--gutter">
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">Default justification is from the start</p></div>
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">Default justification is from the start</p></div>
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">Default justification is from the start</p></div>
+        </div>
+    </section>
+    <section class="o-row o-row--lg">
+        <div class="o-container">
+            <h2>Layout justification modifiers</h2>
+            <div class="o-layout o-layout--gutter">
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">Default justification is from the start</p>
                 </div>
-                <div class="o-layout o-layout--gutter o-layout--justify-end">
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We are justified to the end</p></div>
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We are justified to the end</p></div>
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We are justified to the end</p></div>
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">Default justification is from the start</p>
                 </div>
-                <div class="o-layout o-layout--gutter o-layout--justify-center">
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We are justified to the center</p></div>
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We are justified to the center</p></div>
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We are justified to the center</p></div>
-                </div>
-                <div class="o-layout o-layout--gutter o-layout--justify-space-around">
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We have equal space left and right</p></div>
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We have equal space left and right</p></div>
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We have equal space left and right</p></div>
-                </div>
-                <div class="o-layout o-layout--gutter o-layout--justify-space-between">
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We don't </p></div>
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We don't </p></div>
-                    <div class="o-layout__item u-1-of-4-bp2"><p class="c-layout-block c-layout-block--ellipsis">We don't </p></div>
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">Default justification is from the start</p>
                 </div>
             </div>
-        </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <h2>Reversed row layout modifier</h2>
-                <div class="o-layout o-layout--gutter">
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm <strong>first</strong> in order</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm <strong>second</strong> in order</p></div>
+            <div class="o-layout o-layout--gutter o-layout--justify-end">
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We are justified to the end</p>
                 </div>
-                <div class="o-layout o-layout--gutter o-layout--row-reverse">
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm <strong>first</strong> in order</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block c-layout-block--ellipsis">I'm <strong>second</strong> in order</p></div>
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We are justified to the end</p>
+                </div>
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We are justified to the end</p>
                 </div>
             </div>
-        </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <h2>Layout alignment modifiers</h2>
-                <div class="o-layout o-layout--gutter">
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block">Default alignment is from to te start.</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block">Default alignment is from to te start. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aut placeat tenetur, in totam praesentium. Quisquam culpa dignissimos a, nihil temporibus. Neque, suscipit tempore corporis molestias! Assumenda, blanditiis? Accusantium quis optio cumque necessitatibus inventore delectus, a adipisci, voluptates sequi laboriosam reiciendis dolores, odio illo vero assumenda nisi nobis fugiat officia. Soluta vel vero minima nam totam dicta cumque error maxime itaque quos, modi! Repudiandae sed reprehenderit magni ea sequi consequuntur minus, animi itaque, dolorum illum aliquam doloremque harum at similique accusantium cumque, illo quos libero perferendis veniam autem iusto eum earum consequatur sapiente. Velit perspiciatis eligendi, cumque ipsum sint culpa.</p></div>
+            <div class="o-layout o-layout--gutter o-layout--justify-center">
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We are justified to the center</p>
                 </div>
-                <div class="o-layout o-layout--gutter o-layout--align-end">
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block">We are aligned to te end.</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block">We are aligned to te end. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aut placeat tenetur, in totam praesentium. Quisquam culpa dignissimos a, nihil temporibus. Neque, suscipit tempore corporis molestias! Assumenda, blanditiis? Accusantium quis optio cumque necessitatibus inventore delectus, a adipisci, voluptates sequi laboriosam reiciendis dolores, odio illo vero assumenda nisi nobis fugiat officia. Soluta vel vero minima nam totam dicta cumque error maxime itaque quos, modi! Repudiandae sed reprehenderit magni ea sequi consequuntur minus, animi itaque, dolorum illum aliquam doloremque harum at similique accusantium cumque, illo quos libero perferendis veniam autem iusto eum earum consequatur sapiente. Velit perspiciatis eligendi, cumque ipsum sint culpa.</p></div>
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We are justified to the center</p>
                 </div>
-                <div class="o-layout o-layout--gutter o-layout--align-center">
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block">We are aligned to te center.</p></div>
-                    <div class="o-layout__item u-1-of-2-bp2"><p class="c-layout-block">We are aligned to te center. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aut placeat tenetur, in totam praesentium. Quisquam culpa dignissimos a, nihil temporibus. Neque, suscipit tempore corporis molestias! Assumenda, blanditiis? Accusantium quis optio cumque necessitatibus inventore delectus, a adipisci, voluptates sequi laboriosam reiciendis dolores, odio illo vero assumenda nisi nobis fugiat officia. Soluta vel vero minima nam totam dicta cumque error maxime itaque quos, modi! Repudiandae sed reprehenderit magni ea sequi consequuntur minus, animi itaque, dolorum illum aliquam doloremque harum at similique accusantium cumque, illo quos libero perferendis veniam autem iusto eum earum consequatur sapiente. Velit perspiciatis eligendi, cumque ipsum sint culpa.</p></div>
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We are justified to the center</p>
                 </div>
             </div>
-        </section>
-        <section class="o-row o-row--lg">
-            <div class="o-container">
-                <h2>Layout items with auto width</h2>
-                <div class="o-layout o-layout--gutter">
-                    <div class="o-layout__item u-width-auto"><p class="c-layout-block">u-width-auto</p></div>
-                    <div class="o-layout__item u-width-auto"><p class="c-layout-block">u-width-auto with some more text</p></div>
-                    <div class="o-layout__item u-width-auto"><p class="c-layout-block">u-width-auto with even more text to demonstrate what it does</p></div>
+            <div class="o-layout o-layout--gutter o-layout--justify-space-around">
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We have equal space left and right</p>
+                </div>
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We have equal space left and right</p>
+                </div>
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We have equal space left and right</p>
                 </div>
             </div>
-        </section>
-        <section>
-            <header class="o-row o-row--lg">
-                <div class="o-container">
-                    <h2>Example 1</h2>
+            <div class="o-layout o-layout--gutter o-layout--justify-space-between">
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We don't </p>
                 </div>
-            </header>
-            <article class="o-row o-row--lg">
-                <div class="o-container">
-                    <div class="o-layout">
-                        <div class="o-layout__item">
-                            <figure>
-                                <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
-                            </figure>
-                        </div>
-                        <div class="o-layout__item">
-                            <h3>I'm second in order</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
-                            </p>
-                        </div>
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We don't </p>
+                </div>
+                <div class="o-layout__item u-1-of-4-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">We don't </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="o-row o-row--lg">
+        <div class="o-container">
+            <h2>Reversed row layout modifier</h2>
+            <div class="o-layout o-layout--gutter">
+                <div class="o-layout__item u-1-of-2-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">I'm <strong>first</strong> in order</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">I'm <strong>second</strong> in order</p>
+                </div>
+            </div>
+            <div class="o-layout o-layout--gutter o-layout--row-reverse">
+                <div class="o-layout__item u-1-of-2-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">I'm <strong>first</strong> in order</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2">
+                    <p class="c-layout-block c-layout-block--ellipsis">I'm <strong>second</strong> in order</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="o-row o-row--lg">
+        <div class="o-container">
+            <h2>Layout alignment modifiers</h2>
+            <div class="o-layout o-layout--gutter">
+                <div class="o-layout__item u-1-of-2-bp2">
+                    <p class="c-layout-block">Default alignment is from to te start.</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2">
+                    <p class="c-layout-block">Default alignment is from to te start. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Blanditiis aut placeat tenetur, in totam praesentium. Quisquam
+                        culpa dignissimos a, nihil temporibus. Neque, suscipit tempore corporis molestias! Assumenda,
+                        blanditiis? Accusantium quis optio cumque necessitatibus inventore delectus, a adipisci,
+                        voluptates sequi laboriosam reiciendis dolores, odio illo vero assumenda nisi nobis fugiat
+                        officia. Soluta vel vero minima nam totam dicta cumque error maxime itaque quos, modi!
+                        Repudiandae sed reprehenderit magni ea sequi consequuntur minus, animi itaque, dolorum illum
+                        aliquam doloremque harum at similique accusantium cumque, illo quos libero perferendis veniam
+                        autem iusto eum earum consequatur sapiente. Velit perspiciatis eligendi, cumque ipsum sint
+                        culpa.</p>
+                </div>
+            </div>
+            <div class="o-layout o-layout--gutter o-layout--align-end">
+                <div class="o-layout__item u-1-of-2-bp2">
+                    <p class="c-layout-block">We are aligned to te end.</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2">
+                    <p class="c-layout-block">We are aligned to te end. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Blanditiis aut placeat tenetur, in totam praesentium. Quisquam culpa
+                        dignissimos a, nihil temporibus. Neque, suscipit tempore corporis molestias! Assumenda,
+                        blanditiis? Accusantium quis optio cumque necessitatibus inventore delectus, a adipisci,
+                        voluptates sequi laboriosam reiciendis dolores, odio illo vero assumenda nisi nobis fugiat
+                        officia. Soluta vel vero minima nam totam dicta cumque error maxime itaque quos, modi!
+                        Repudiandae sed reprehenderit magni ea sequi consequuntur minus, animi itaque, dolorum illum
+                        aliquam doloremque harum at similique accusantium cumque, illo quos libero perferendis veniam
+                        autem iusto eum earum consequatur sapiente. Velit perspiciatis eligendi, cumque ipsum sint
+                        culpa.</p>
+                </div>
+            </div>
+            <div class="o-layout o-layout--gutter o-layout--align-center">
+                <div class="o-layout__item u-1-of-2-bp2">
+                    <p class="c-layout-block">We are aligned to te center.</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2">
+                    <p class="c-layout-block">We are aligned to te center. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Blanditiis aut placeat tenetur, in totam praesentium. Quisquam culpa
+                        dignissimos a, nihil temporibus. Neque, suscipit tempore corporis molestias! Assumenda,
+                        blanditiis? Accusantium quis optio cumque necessitatibus inventore delectus, a adipisci,
+                        voluptates sequi laboriosam reiciendis dolores, odio illo vero assumenda nisi nobis fugiat
+                        officia. Soluta vel vero minima nam totam dicta cumque error maxime itaque quos, modi!
+                        Repudiandae sed reprehenderit magni ea sequi consequuntur minus, animi itaque, dolorum illum
+                        aliquam doloremque harum at similique accusantium cumque, illo quos libero perferendis veniam
+                        autem iusto eum earum consequatur sapiente. Velit perspiciatis eligendi, cumque ipsum sint
+                        culpa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="o-row o-row--lg">
+        <div class="o-container">
+            <h2>Layout items with auto width</h2>
+            <div class="o-layout o-layout--gutter">
+                <div class="o-layout__item u-width-auto">
+                    <p class="c-layout-block">u-width-auto</p>
+                </div>
+                <div class="o-layout__item u-width-auto">
+                    <p class="c-layout-block">u-width-auto with some more text</p>
+                </div>
+                <div class="o-layout__item u-width-auto">
+                    <p class="c-layout-block">u-width-auto with even more text to demonstrate what it does</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <header class="o-row o-row--lg">
+            <div class="o-container">
+                <h2>Example 1</h2>
+            </div>
+        </header>
+        <article class="o-row o-row--lg">
+            <div class="o-container">
+                <div class="o-layout">
+                    <div class="o-layout__item">
+                        <figure>
+                            <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
+                        </figure>
+                    </div>
+                    <div class="o-layout__item">
+                        <h3>I'm second in order</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                            error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam,
+                            sunt minus mollitia libero.
+                        </p>
                     </div>
                 </div>
-            </article>
-            <article class="o-row o-row--lg">
-                <div class="o-container">
-                    <div class="o-layout">
-                        <div class="o-layout__item">
-                            <figure>
-                                <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
-                            </figure>
-                        </div>
-                        <div class="o-layout__item">
-                            <h3>I'm second in order</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
-                            </p>
-                        </div>
+            </div>
+        </article>
+        <article class="o-row o-row--lg">
+            <div class="o-container">
+                <div class="o-layout">
+                    <div class="o-layout__item">
+                        <figure>
+                            <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
+                        </figure>
+                    </div>
+                    <div class="o-layout__item">
+                        <h3>I'm second in order</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                            error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam,
+                            sunt minus mollitia libero.
+                        </p>
                     </div>
                 </div>
-            </article>
-        </section>
-        <section>
-            <header class="o-row o-row--lg">
-                <div class="o-container">
-                    <h2>Example 2</h2>
+            </div>
+        </article>
+    </section>
+    <section>
+        <header class="o-row o-row--lg">
+            <div class="o-container">
+                <h2>Example 2</h2>
+            </div>
+        </header>
+        <div class="o-row o-row--lg">
+            <div class="o-container">
+                <div class="o-layout">
+                    <article class="o-layout__item">
+                        <figure>
+                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                        </figure>
+                        <h3>I'm first in order</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                            error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam,
+                            sunt minus mollitia libero.
+                        </p>
+                    </article>
+                    <article class="o-layout__item">
+                        <figure>
+                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                        </figure>
+                        <h3>I'm second in order</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                            error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam,
+                            sunt minus mollitia libero.
+                        </p>
+                    </article>
+                    <article class="o-layout__item">
+                        <figure>
+                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                        </figure>
+                        <h3>I'm third in order</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                            error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam,
+                            sunt minus mollitia libero.
+                        </p>
+                    </article>
                 </div>
-            </header>
-            <div class="o-row o-row--lg">
-                <div class="o-container">
-                    <div class="o-layout">
-                        <article class="o-layout__item">
-                            <figure>
-                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                            </figure>
+            </div>
+        </div>
+    </section>
+    <section>
+        <header class="o-row o-row--lg">
+            <div class="o-container">
+                <h2>Example 3</h2>
+            </div>
+        </header>
+        <div class="o-row o-row--lg">
+            <div class="o-container">
+                <div class="o-layout">
+                    <article class="o-layout__item">
+                        <figure>
+                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                        </figure>
+                        <div>
                             <h3>I'm first in order</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                                error qui.
                             </p>
-                        </article>
-                        <article class="o-layout__item">
-                            <figure>
-                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                            </figure>
+                        </div>
+                    </article>
+                    <article class="o-layout__item">
+                        <figure>
+                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                        </figure>
+                        <div>
                             <h3>I'm second in order</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                                error qui, tempora natus reiciendis sed iste asperiores.
                             </p>
-                        </article>
-                        <article class="o-layout__item">
-                            <figure>
-                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                            </figure>
+                        </div>
+                    </article>
+                    <article class="o-layout__item">
+                        <figure>
+                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                        </figure>
+                        <div>
                             <h3>I'm third in order</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                                error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde
+                                nam, sunt minus mollitia libero.
                             </p>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <header class="o-row o-row--lg">
-                <div class="o-container">
-                    <h2>Example 3</h2>
-                </div>
-            </header>
-            <div class="o-row o-row--lg">
-                <div class="o-container">
-                    <div class="o-layout">
-                        <article class="o-layout__item">
-                            <figure>
-                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                            </figure>
-                            <div>
-                                <h3>I'm first in order</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui.
-                                </p>
-                            </div>
-                        </article>
-                        <article class="o-layout__item">
-                            <figure>
-                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                            </figure>
-                            <div>
-                                <h3>I'm second in order</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores.
-                                </p>
-                            </div>
-                        </article>
-                        <article class="o-layout__item">
-                            <figure>
-                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                            </figure>
-                            <div>
-                                <h3>I'm third in order</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <header class="o-row o-row--lg">
-                <div class="o-container">
-                    <h2>Example 4</h2>
-                </div>
-            </header>
-            <div class="o-row o-row--lg">
-                <div class="o-container">
-                    <div class="o-layout">
-                        <article class="o-layout__item o-layout">
-                            <figure class="o-layout">
-                                <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
-                            </figure>
-                            <div>
-                                <h3>I'm first in order</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui.
-                                </p>
-                            </div>
-                        </article>
-                        <article class="o-layout__item o-layout">
-                            <figure class="o-layout">
-                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                            </figure>
-                            <div>
-                                <h3>I'm second in order</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores.
-                                </p>
-                            </div>
-                        </article>
-                        <article class="o-layout__item o-layout">
-                            <figure class="o-layout">
-                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                            </figure>
-                            <div>
-                                <h3>I'm third in order</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <header class="o-row o-row--lg">
-                <div class="o-container">
-                    <h2>Example 5</h2>
-                </div>
-            </header>
-            <div class="o-row o-row--lg">
-                <div class="o-container">
-                    <figure>
-                        <div class="o-layout">
-                            <div class="o-layout__item">
-                                <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
-                            </div>
-                            <div class="o-layout__item">
-                                <figcaption class="u-max-width-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam, sunt minus mollitia libero.</figcaption>
-                            </div>
                         </div>
-                    </figure>
+                    </article>
                 </div>
             </div>
-        </section>
-        <section>
-            <header>
-                <div>
-                    <h1>Example 6: blogpost design</h1>
+        </div>
+    </section>
+    <section>
+        <header class="o-row o-row--lg">
+            <div class="o-container">
+                <h2>Example 4</h2>
+            </div>
+        </header>
+        <div class="o-row o-row--lg">
+            <div class="o-container">
+                <div class="o-layout">
+                    <article class="o-layout__item o-layout">
+                        <figure class="o-layout">
+                            <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
+                        </figure>
+                        <div>
+                            <h3>I'm first in order</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                                error qui.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="o-layout__item o-layout">
+                        <figure class="o-layout">
+                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                        </figure>
+                        <div>
+                            <h3>I'm second in order</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                                error qui, tempora natus reiciendis sed iste asperiores.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="o-layout__item o-layout">
+                        <figure class="o-layout">
+                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                        </figure>
+                        <div>
+                            <h3>I'm third in order</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
+                                error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde
+                                nam, sunt minus mollitia libero.
+                            </p>
+                        </div>
+                    </article>
                 </div>
-            </header>
-            <figure>
-                <picture>
-                    <source srcset="img/picture@2x.jpg" media="(min-width: 1200px)">
-                    <source srcset="img/picture.jpg" media="(min-width: 992px)">
-                    <source srcset="img/picture-medium@2x.jpg" media="(min-width: 768px)">
-                    <source srcset="img/picture-medium.jpg" media="(min-width: 576px)">
-                    <img srcset="img/picture-square@2x.jpg" alt="Picture of girl reading on a tablet">
-                </picture>
-            </figure>
+            </div>
+        </div>
+    </section>
+    <section>
+        <header class="o-row o-row--lg">
+            <div class="o-container">
+                <h2>Example 5</h2>
+            </div>
+        </header>
+        <div class="o-row o-row--lg">
+            <div class="o-container">
+                <figure>
+                    <div class="o-layout">
+                        <div class="o-layout__item">
+                            <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
+                        </div>
+                        <div class="o-layout__item">
+                            <figcaption class="u-max-width-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Neque officiis laudantium rem error qui, tempora natus reiciendis sed iste asperiores,
+                                accusamus optio facere a, unde nam, sunt minus mollitia libero.</figcaption>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section>
+        <header>
+            <div>
+                <h1>Example 6: blogpost design</h1>
+            </div>
+        </header>
+        <figure>
+            <picture>
+                <source srcset="img/picture@2x.jpg" media="(min-width: 1200px)">
+                <source srcset="img/picture.jpg" media="(min-width: 992px)">
+                <source srcset="img/picture-medium@2x.jpg" media="(min-width: 768px)">
+                <source srcset="img/picture-medium.jpg" media="(min-width: 576px)">
+                <img srcset="img/picture-square@2x.jpg" alt="Picture of girl reading on a tablet">
+            </picture>
+        </figure>
+        <div>
             <div>
                 <div>
                     <div>
+                        <figure class="c-author u-mb-xl-bp2">
+                            <img class="c-author__image" src="img/avatar.jpg" alt="Simon Coudeville">
+                            <figcaption class="c-author__caption">
+                                <h2 class="c-author__name">Simon Coudeville</h2>
+                                <p class="c-author__meta">
+                                    User Interface Designer
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div>
                         <div>
-                            <figure class="c-author u-mb-xl-bp2">
-                                <img class="c-author__image" src="img/avatar.jpg" alt="Simon Coudeville">
-                                <figcaption class="c-author__caption">
-                                    <h2 class="c-author__name">Simon Coudeville</h2>
-                                    <p class="c-author__meta">
-                                        User Interface Designer
-                                    </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div>
-                            <div>
-                                <p>
-                                    As we refine our methods of responsive web design,* we’ve increasingly focus*ed on measure (another word for “line length”) and its relationship to how people read. The popularization of the “ideal measure” has led to advice such as “Increase font size for large screens and reduce font size for small screens.” While a good measure does improve the reading experience, it’s only one rule for good typography. Another rule is to maintain a comfortable font size.
-                                </p>
-                                <h2>
-                                    How People Read
-                                </h2>
-                                <p>
-                                    People read online text to serve their own needs: to find the information they seek, to discover new ideas and to confirm their notions about life.
-                                </p>
-                                <h3>
-                                    People read in three ways
-                                </h3>
-                                <p>
-                                    In 2006, the <a href="https://www.nngroup.com/">Nielsen Norman group</a> released images of heat maps from eye-tracking studies. The areas where people looked at the most while reading are red, areas with fewer views are yellow, and the least-viewed areas are blue. As you can see below, the red and yellow areas form three variations of an F-shaped pattern. These variations aren’t surprising because people read in three different ways.
-                                </p>
-                                <p>
-                                    People read casually, skimming over text, reading words and sentences here and there to get a sense of the content. The heat map below shows the eye movements of someone casually reading about a product. The reader spent time looking at the image of the product, reading the first couple of sentences, then scanning through the bulleted list.
-                                </p>
-                                <h3>
-                                    Reading is a complex process
-                                </h3>
-                                <p>
-                                    We know that people read in three different ways, but let’s look more closely at how people read — how the F-shaped patterns are formed. We know that people. Don’t. Read. Each. Individual. Word. Instead, they use their foveal (or central) vision to focus on a word, while using their peripheral vision to find the next spot on which to focus.
-                                </p>
-                                <h2>
-                                    Line Length (Measure) And Reading
-                                </h2>
-                                <p>
-                                    Typographers have been writing about the relationship between horizontal and vertical eye motion for almost a century. In 1928, Jan Tschichold dismissed centered text and advocated for left-aligned text. He argued that this would assist readers by providing a consistent left (vertical) edge for the eye to return to after finishing each (horizontal) line.
-                                </p>
-                            </div>
+                            <p>
+                                As we refine our methods of responsive web design,* we’ve increasingly focus*ed on
+                                measure (another word for “line length”) and its relationship to how people read. The
+                                popularization of the “ideal measure” has led to advice such as “Increase font size for
+                                large screens and reduce font size for small screens.” While a good measure does improve
+                                the reading experience, it’s only one rule for good typography. Another rule is to
+                                maintain a comfortable font size.
+                            </p>
+                            <h2>
+                                How People Read
+                            </h2>
+                            <p>
+                                People read online text to serve their own needs: to find the information they seek, to
+                                discover new ideas and to confirm their notions about life.
+                            </p>
+                            <h3>
+                                People read in three ways
+                            </h3>
+                            <p>
+                                In 2006, the <a href="https://www.nngroup.com/">Nielsen Norman group</a> released images
+                                of heat maps from eye-tracking studies. The areas where people looked at the most while
+                                reading are red, areas with fewer views are yellow, and the least-viewed areas are blue.
+                                As you can see below, the red and yellow areas form three variations of an F-shaped
+                                pattern. These variations aren’t surprising because people read in three different ways.
+                            </p>
+                            <p>
+                                People read casually, skimming over text, reading words and sentences here and there to
+                                get a sense of the content. The heat map below shows the eye movements of someone
+                                casually reading about a product. The reader spent time looking at the image of the
+                                product, reading the first couple of sentences, then scanning through the bulleted list.
+                            </p>
+                            <h3>
+                                Reading is a complex process
+                            </h3>
+                            <p>
+                                We know that people read in three different ways, but let’s look more closely at how
+                                people read — how the F-shaped patterns are formed. We know that people. Don’t. Read.
+                                Each. Individual. Word. Instead, they use their foveal (or central) vision to focus on a
+                                word, while using their peripheral vision to find the next spot on which to focus.
+                            </p>
+                            <h2>
+                                Line Length (Measure) And Reading
+                            </h2>
+                            <p>
+                                Typographers have been writing about the relationship between horizontal and vertical
+                                eye motion for almost a century. In 1928, Jan Tschichold dismissed centered text and
+                                advocated for left-aligned text. He argued that this would assist readers by providing a
+                                consistent left (vertical) edge for the eye to return to after finishing each
+                                (horizontal) line.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </body>
+        </div>
+    </section>
+</body>
+
 </html>
